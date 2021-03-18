@@ -21,3 +21,8 @@ build:
             - start_scripts/
             - wsdd
             - wsdd_debug
+
+staging:
+    stage: deploy
+    tigger:
+        project: public/onvif/onvif_srvd
