@@ -24,5 +24,5 @@ build:
 
 staging:
     stage: deploy
-    tigger:
+    trigger:
         project: public/onvif/onvif_srvd
